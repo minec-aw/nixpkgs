@@ -30,7 +30,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "WayfireWM";
     repo = "wayfire-plugins-extra";
     rev = "${finalAttrs.version}";
-    hash = lib.fakeHash;
+    hash = "sha256-3Z2p8dYhVb6k9Imu5vxCE/eFN7u4TcbIhNiq/O3f2G0=";
     fetchSubmodules = true;
   };
 
