@@ -20,7 +20,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "WayfireWM";
     repo = "wf-config";
     rev = "${finalAttrs.version}";
-    hash = lib.fakeHash;
+    hash = "sha256-MAH96le0pVRdh+NBtE8Yb8c3vhtBsmJ4N/6XYYwFL4U=";
   };
 
   nativeBuildInputs = [
