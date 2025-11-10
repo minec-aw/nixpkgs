@@ -13,6 +13,7 @@ lib.makeScope pkgs.newScope (
     wayfire-plugins-extra = callPackage ./wayfire-plugins-extra.nix { };
     wcm = callPackage ./wcm.nix { };
     wf-shell = callPackage ./wf-shell.nix { };
+    pixdecor = callPackage ./pixdecor.nix { };
   }
 )
 // lib.optionalAttrs config.allowAliases {
