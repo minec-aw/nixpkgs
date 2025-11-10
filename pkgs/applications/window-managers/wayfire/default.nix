@@ -33,14 +33,14 @@ in
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "wayfire";
-  version = "0.10.0";
+  version = "1aecf0d59db3f9c4bb8bdd69ca855a9d161dc76e";
 
   src = fetchFromGitHub {
     owner = "WayfireWM";
     repo = "wayfire";
-    rev = "v${finalAttrs.version}";
+    rev = "${finalAttrs.version}";
     fetchSubmodules = true;
-    hash = "sha256-rnrcuikfRPnIfIkmKUIRh8Sm+POwFLzaZZMAlmeBdjY=";
+    hash = lib.fakeHash;
   };
 
   postPatch = ''
