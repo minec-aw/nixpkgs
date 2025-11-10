@@ -40,7 +40,7 @@ stdenv.mkDerivation (finalAttrs: {
     repo = "wayfire";
     rev = "${finalAttrs.version}";
     fetchSubmodules = true;
-    hash = lib.fakeHash;
+    hash = "sha256-vooxEpoiHr+6E1TNzDrh5oF+sVc2BomGSrglWbFzY9o=";
   };
 
   postPatch = ''
