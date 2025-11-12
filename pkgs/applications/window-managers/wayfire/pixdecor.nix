@@ -26,7 +26,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "minec-aw";
     repo = "pixdecor";
     rev = "${finalAttrs.version}";
-    hash = lib.fakeHash;
+    hash = "sha256-G/bA8WORyvJ+UOQN7KRAbyO/aD1k3GfjdT8Dd5njDGY=";
     fetchSubmodules = true;
   };
 
