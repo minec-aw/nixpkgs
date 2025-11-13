@@ -20,13 +20,13 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "pixdecor";
-  version = "b83e9731db88fd880d9b83a77b1b625816e97a8c";
+  version = "a916265cf7815b2c922c876293cef07db1931b50";
 
   src = fetchFromGitHub {
-    owner = "soreau";
+    owner = "minec-aw";
     repo = "pixdecor";
     rev = "${finalAttrs.version}";
-    hash = "sha256-+NvnG8tYc0M5zdxaI375+gqeWWWePyqPp+njI07ooXM=";
+    hash = "sha256-rW55VCC4teGNFQuNblK1l+wgbBU+o8730r+pqsck1Sg=";
     fetchSubmodules = true;
   };
 
