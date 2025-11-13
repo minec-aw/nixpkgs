@@ -14,6 +14,8 @@ lib.makeScope pkgs.newScope (
     wcm = callPackage ./wcm.nix { };
     wf-shell = callPackage ./wf-shell.nix { };
     pixdecor = callPackage ./pixdecor.nix { };
+    wf-info = callPackage ./wf-info.nix { };
+    
   }
 )
 // lib.optionalAttrs config.allowAliases {
